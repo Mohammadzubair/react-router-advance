@@ -1,0 +1,26 @@
+.header {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigationItemsBox {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px;
+}
+
+/* .list a {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+.list a:hover,
+.list a.active {
+  color: var(--color-primary-800);
+} */
