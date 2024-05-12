@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"New event adding now!!!","image":"https://images.unsplash.com/photo-1715276611505-fbea90d3e9e3?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","date":"2024-06-29","description":"This is the new event.","id":"b11e9fc4-0e1f-47ab-8e4a-e20d8dfc80a4"},{"title":"testing event..","image":"https://images.unsplash.com/photo-1714837311766-eac4e92f284c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","date":"2024-05-30","description":"just testing...","id":"d2a34bb7-9720-43a8-8436-87d1ae9c9911"},{"title":"New event is coming soon","image":"https://images.unsplash.com/photo-1714837311766-eac4e92f284c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","date":"2024-05-31","description":"It's a new event on the way.","id":"ec5d602f-fa57-4d7e-bce4-77d04d6bafd8"},{"title":"Creating the new event","image":"https://images.unsplash.com/photo-1603201101485-e232d22ad18b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","date":"2024-05-22","description":"This the photo shot event happening in the future.","id":"ac78d048-445a-4542-888d-b092de8e9477"},{"title":"New photo shot event","image":"https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","date":"2024-05-12","description":"This is the beautiful photo shot event.","id":"a0af6193-0c80-48a8-990a-640473528408"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}

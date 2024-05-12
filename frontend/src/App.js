@@ -1,13 +1,15 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { action as manipulateEventAction } from "./components/EventForm"
+import EventsPage, { loader as eventsLoader } from "./pages/EventsPage"
+import EventDetailPage, { loader as eventDetailLoader, action as eventDeleteAction } from "./pages/EventDetailPage"
 
 import HomePage from "./pages/HomePage"
-import EventsPage, { loader as eventsLoader } from "./pages/EventsPage"
 import EditEventPage from "./pages/EditEventPage"
 import NewEventPage from "./pages/NewEventPage"
-import EventDetailPage, { loader as eventDetailLoader } from "./pages/EventDetailPage"
 import RootLayout from "./pages/RootLayout";
 import ErrorPage from "./pages/ErrorPage";
 import EventsRootLayout from "./pages/EventsRootLayout";
+import NewsletterPage, { action as newsletterAction } from "./pages/NewsletterPage";
 
 
 function App() {
@@ -24,12 +26,17 @@ function App() {
             },
             {
               path: ":eventId", id: "event-detail", loader: eventDetailLoader, children: [
-                { index: true, element: <EventDetailPage /> },
-                { path: 'edit', element: <EditEventPage /> },
+                { index: true, element: <EventDetailPage />, action: eventDeleteAction },
+                { path: 'edit', element: <EditEventPage />, action: manipulateEventAction },
               ]
             },
-            { path: 'new', element: <NewEventPage /> },
+            { path: 'new', element: <NewEventPage />, action: manipulateEventAction },
           ]
+        },
+        {
+          path: 'newsletter',
+          element: <NewsletterPage />,
+          action: newsletterAction,
         },
       ],
     }
