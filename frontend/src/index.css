@@ -77,3 +77,7 @@ a {
   text-decoration: underline;
   color: var(--color-primary-900);
 }
+
+main {
+  padding: 1rem;
+}
